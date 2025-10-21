@@ -9,7 +9,7 @@ void main(){
 	scanf("%s", name);
 	fp = fopen("input.txt", "r");
 	fscanf(fp, "%s", line);
-	for (int i=2, j=0; i<8, j<6; i++, j++){
+	for (i=2, j=0; i<8 && j<6; i++, j++){
 		name1[j] = line[i];
 	}
 	name1[j] = '\0';
@@ -18,7 +18,7 @@ void main(){
 		do{
 			fscanf(fp, "%s", line);
 			if(line[0] == 'T'){
-				for (int i=2, j=0; i<8, j<6; i++, j++){
+				for (i=2, j=0; i<8, j<6; i++, j++){
 					name1[j] = line[i];
 				}
 				name1[j] = '\0';

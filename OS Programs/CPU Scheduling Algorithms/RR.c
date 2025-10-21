@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int burst[20], n, waiting[20], turnaround[20], remaining[20],completed[20], ct[20], time = 0, qt;
 void input() {
   printf("Enter Time Quantum: ");
